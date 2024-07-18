@@ -1,0 +1,239 @@
+body {
+  background: url(/Screenshot\ 2024-07-17\ 163611_cleanup.png);
+  font-family: sans-serif;
+  /* backdrop-filter: blur(10px); */
+  background-repeat: no-repeat;
+  background-size: 1920px 785px;
+  background-color: black;
+  color: white;
+}
+
+.img {
+  width: 100px;
+  height: 50px;
+}
+.nav {
+  /* display: flex; */
+  justify-content: end;
+  /* text-align: end; */
+  justify-content: space-around;
+}
+
+nav .img img {
+  width: 196px;
+  display: flex;
+  height: 99px;
+  margin-right: 20px;
+}
+
+.input button {
+  margin-top: 30px;
+  width: 160px;
+  height: 50px;
+
+  font-size: 20px;
+  border: none;
+  background-color: rgb(224, 16, 16);
+  color: white;
+  /* display: flex; */
+  border-radius: 5px;
+  /* justify-content: center; */
+  margin: auto;
+}
+
+.main {
+  font-size: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-top: -70px;
+}
+
+nav .btn {
+  display: flex;
+  justify-content: end;
+  padding-right: 22px;
+  padding-bottom: 10px;
+}
+.btn .eng {
+  /* margin-inline: 22px; */
+  padding: 7px 23px 5px;
+  width: 116px;
+  height: 35px;
+  background-color: black;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  /* margin-inline: 22px; */
+  /* align-items: end; */
+  display: flex;
+  /* justify-content: center; */
+}
+.btn .sign:hover {
+  background-color: rgb(189, 21, 21);
+}
+.btn .sign {
+  margin-inline: 22px;
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px;
+  background-color: rgb(224, 16, 16);
+  color: white;
+  /* display: flex; */
+  border-radius: 5px;
+  /* justify-content: center; */
+  /* margin: auto; */
+}
+
+.main h1 {
+  font-size: 50px;
+
+  padding-top: 160px;
+}
+.main h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-size: 26px;
+  /* padding-top: 15px; */
+}
+.main p {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  /* padding-top: 20px; */
+}
+.input {
+  /* text-align: center; */
+  /* padding-top: 5px; */
+
+  padding-bottom: 200px;
+  /* width: 1500px; */
+  /* height: 50px; */
+}
+.input input {
+  width: 300px;
+  height: 45px;
+  backdrop-filter: blur(3px);
+  background-color: rgb(84, 82, 82);
+  background: transparent;
+  padding-left: 18px;
+  font-size: 15px;
+  color: white;
+  border: 1px solid rgb(205, 201, 201);
+  border-radius: 3px;
+}
+.input button {
+  height: 55px;
+  cursor: pointer;
+  width: 150px;
+}
+.input2 {
+  text-align: center;
+  padding-top: 18px;
+  justify-content: center;
+  padding-bottom: 50px;
+
+  /* width: 1500px; */
+  /* height: 50px; */
+}
+.input2 input {
+  width: 300px;
+  height: 45px;
+  padding-left: 18px;
+  backdrop-filter: blur(3px);
+  background-color: rgb(84, 82, 82);
+  background: transparent;
+  font-size: 15px;
+  color: white;
+  border: 1px solid rgb(205, 201, 201);
+  border-radius: 3px;
+}
+.input2 button {
+  /* height: 55px; */
+  cursor: pointer;
+  /* width: 150px; */
+  margin-top: 30px;
+  width: 160px;
+  height: 50px;
+
+  font-size: 20px;
+  border: none;
+  background-color: rgb(224, 16, 16);
+  color: white;
+  /* display: flex; */
+  border-radius: 5px;
+  /* justify-content: center; */
+  margin: auto;
+}
+.input2 .Ready {
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  /* padding: 220px; */
+  border-top: 8px solid rgb(59, 58, 58);
+}
+.first img {
+  width: 45%;
+  height: 70vh;
+}
+.first h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-left: 80px;
+  /* text-align: center; */
+}
+.first p {
+  font-size: 28px;
+  margin: 16px 0px 0px;
+  padding-left: 80px;
+  /* text-align: center; */
+}
+.head {
+  border-top: 8px solid rgb(59, 58, 58);
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  justify-content: center;
+  /* padding-bottom: 50px; */
+}
+.head button {
+  color: white;
+  /* justify-content: center; */
+  width: 600px;
+  cursor: pointer;
+  height: 80px;
+  display: block;
+  background-color: rgb(54, 51, 51);
+  border: 2px solid none;
+  border-radius: 2px;
+  font-size: 22px;
+  width: 1000px;
+  margin-left: 220px;
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.head button:hover {
+  background-color: rgb(89, 87, 87);
+  /* transition: all 0.5s ease-in-out; */
+  /* border-radius: 10%; */
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 40px;
+  border-top: 8px solid rgb(59, 58, 58);
+  margin-top: 20px;
+  /* margin: 10px; */
+}
+.footer .list p {
+  padding: 8px;
+}
