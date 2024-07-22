@@ -1,0 +1,115 @@
+* {
+  /* font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif; */
+}
+
+body {
+  background: url(/Screenshot\ 2024-07-17\ 163611_cleanup.png);
+  background-size: 1920px 785px;
+  background-repeat: no-repeat;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: white;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 450px;
+  height: 85vh;
+  border: none;
+  border-radius: 3px;
+  /* background: transparent; */
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+}
+.container h2 {
+  font-size: 33px;
+  padding-left: 55px;
+  margin-bottom: px;
+}
+form .input-box {
+  height: 50px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.input-box input {
+  height: 50px;
+  width: 300px;
+  padding-left: 20px;
+  background-color: rgba(22, 22, 22, 0.7);
+
+  border: 1px solid rgb(165, 164, 164);
+  border-radius: 4px;
+  /* margin: 10px; */
+  font-size: 16px;
+}
+.container .btn1 {
+  display: block;
+  width: 330px;
+  padding: 10px;
+  background-color: rgb(227, 20, 20);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  /* margin: auto; */
+  border: 2px none;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.container .btn1:hover {
+  background-color: rgb(188, 10, 10);
+}
+.container .btn2 {
+  display: block;
+  width: 330px;
+  padding: 10px;
+  /* background-color: rgb(60, 59, 59); */
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  cursor: pointer;
+  /* background: transparent; */
+  /* margin: auto; */
+  border: 2px none;
+  margin-left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+  border-radius: 2px;
+  font-size: 18px;
+  color: white;
+}
+.container .btn2:hover {
+  /* background-color: rgba(22, 22, 22, 0.7); */
+}
+
+.container h3 {
+  text-align: center;
+  padding-right: 8px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-weight: 100;
+}
+.container .forgot h3 {
+  font-weight: 300;
+  cursor: pointer;
+}
+.container .forgot h3:hover {
+  text-decoration: underline;
+}
+.container .remember {
+  padding-left: 45px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.container .ntN h3 {
+  font-size: 15px;
+  padding-right: 260px;
+  /* width: 170px; */
+}
+.container .ntN {
+  padding-left: 10px;
+  /* width: 150px; */
+}
